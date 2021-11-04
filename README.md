@@ -44,9 +44,9 @@ The following arguments can be taken:
 
 dimRed.py can be ran from the command line by running <python3 dimRed.py "args">
 The following arguments can be taken:
-*-a all, -a PCA, -a ICA, -a RP, -a VT
-*-c all, -c kmeans, -c gmm
-*-d all, -d wine, -d cancer
+-a all, -a PCA, -a ICA, -a RP, -a VT
+-c all, -c kmeans, -c gmm
+-d all, -d wine, -d cancer
 
 -c specificies the cluster or all can be ran
 -d specificies the dataset of all can be ran
@@ -54,11 +54,11 @@ The following arguments can be taken:
 
 
 NN.py can be ran from the command line by running <python3 NN.py "args">
-The following arguments can be taken:
--a all, -a PCA, -a ICA, -a RP, -a VT
--ac, can be ran as -ac all, or specific combinations can be selected such as -ac PCA both, or -ac ICA kmeans. 
--lcurve
--genTab
+The following arguments can be taken:  
+-a all, -a PCA, -a ICA, -a RP, -a VT  
+-ac, can be ran as -ac all, or specific combinations can be selected such as -ac PCA both, or -ac ICA kmeans.   
+-lcurve  
+-genTab  
 
 -a specifies the dimensionality reduction algorithm or all can be ran and prints the output.
 -ac specifies a dimensionality reduction and clustering combination that can be ran and prints the output.
