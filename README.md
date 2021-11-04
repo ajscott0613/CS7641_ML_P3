@@ -31,36 +31,36 @@ requirements.txt: contains the packages needed to run the files
 
 ## Instructions
 
-runClusters.py can be ran from the command line by running <python3 runClusters.py "args">
-The following arguments can be taken:
--c all, -c kmeans, -c gmm
--d all, -d wine, -d cancer
--printmetrics
+runClusters.py can be ran from the command line by running <python3 runClusters.py "args">  
+The following arguments can be taken:  
+-c all, -c kmeans, -c gmm  
+-d all, -d wine, -d cancer  
+-printmetrics  
 
--c specificies the cluster or all can be ran
--d specificies the dataset of ball can be ran
--prinmetrics prints clusters metrics for a single k cluster value specified in the code.
-
-
-dimRed.py can be ran from the command line by running <python3 dimRed.py "args">
-The following arguments can be taken:
--a all, -a PCA, -a ICA, -a RP, -a VT
--c all, -c kmeans, -c gmm
--d all, -d wine, -d cancer
-
--c specificies the cluster or all can be ran
--d specificies the dataset of all can be ran
--a specifies the dimensionality reduction algorithm or all can be ran
+-c specificies the cluster or all can be ran  
+-d specificies the dataset of ball can be ran  
+-prinmetrics prints clusters metrics for a single k cluster value specified in the code.  
 
 
-NN.py can be ran from the command line by running <python3 NN.py "args">
-The following arguments can be taken:
--a all, -a PCA, -a ICA, -a RP, -a VT
--ac, can be ran as -ac all, or specific combinations can be selected such as -ac PCA both, or -ac ICA kmeans. 
--lcurve
--genTab
+dimRed.py can be ran from the command line by running <python3 dimRed.py "args">  
+The following arguments can be taken:  
+-a all, -a PCA, -a ICA, -a RP, -a VT  
+-c all, -c kmeans, -c gmm  
+-d all, -d wine, -d cancer  
 
--a specifies the dimensionality reduction algorithm or all can be ran and prints the output.
--ac specifies a dimensionality reduction and clustering combination that can be ran and prints the output.
--genTab runs all combinations of data and generates a table
--lcurve genereates a learning curve and can be ran with -a or -ac
+-c specificies the cluster or all can be ran  
+-d specificies the dataset of all can be ran  
+-a specifies the dimensionality reduction algorithm or all can be ran  
+
+
+NN.py can be ran from the command line by running <python3 NN.py "args">  
+The following arguments can be taken:  
+-a all, -a PCA, -a ICA, -a RP, -a VT  
+-ac, can be ran as -ac all, or specific combinations can be selected such as -ac PCA both, or -ac ICA kmeans.   
+-lcurve  
+-genTab  
+
+-a specifies the dimensionality reduction algorithm or all can be ran and prints the output.  
+-ac specifies a dimensionality reduction and clustering combination that can be ran and prints the output.  
+-genTab runs all combinations of data and generates a table  
+-lcurve genereates a learning curve and can be ran with -a or -ac  
