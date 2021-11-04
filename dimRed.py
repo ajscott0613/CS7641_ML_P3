@@ -38,13 +38,15 @@ clusterFlg = False
 
 for i in range(len(sys.argv)):
 	if sys.argv[i] == '-a':
+		if sys.argv[i+1] == 'all':
+			ALGS = [0, 1, 2, 3]
 		if sys.argv[i+1] == 'PCA':
 			ALGS = [0]
 		elif sys.argv[i+1] == 'ICA':
 			ALGS = [1]
 		elif sys.argv[i+1] == 'RP':
 			ALGS = [2]
-		elif sys.argv[i+1] == 'SVD':
+		elif sys.argv[i+1] == 'VT':
 			ALGS = [3]
 		# DATASETS = [int(sys.argv[i+1])]
 	if sys.argv[i] == '-d':
